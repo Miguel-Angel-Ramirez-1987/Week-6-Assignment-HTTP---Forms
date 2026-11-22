@@ -9,3 +9,37 @@
 // also want to call this function again when the user saves their preferences to
 // immediately apply them. Make sure you also notify the user somehow that the preferences
 // were saved.
+
+
+let saveAndApplyPreferences = function(applyAndStorePreferences) {
+
+    let inputedValueForName = LocalStorage.setItem("name");
+    let inputedValueForColor = LocalStorage.setItem("Preferred background color")
+    let inputedValueForText = LocalStorage.setItem("Preferred text color")
+
+    .addEventListener("Save and Apply Preferences", () => {
+        applyAndStorePreferences(getItem("name"), 
+                                    getItem("Preferred background color"), 
+                                    getItem("Preferred text color"))
+    });
+        
+        if (perferencesLeftUnchanged) {
+            let applyAndStorePreferences = (preferencesUponLoading)
+        }
+        else (saveAndApplyPreferences = function(applyAndStorePreference)                                                                                     
+});
+
+
+function greet(getItem("name")) {
+    Let greet(getItem("name")) = LocalStorage.setItem("name")
+
+}
+
+
+function returnVisitNewSession(preferencesUponLoading) {
+    if (returnVisitNewSession)
+        let preferencesUponLoading = saveAndApplyPreferences  
+})
+
+
+
