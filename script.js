@@ -11,6 +11,14 @@
 // were saved.
 
 
+function greet(firstTimer) {
+    let firstVisit = "Hello First Timer"
+    console.log("hello" + firstTimer)
+} 
+
+let form = document.querySelector("preferences-form");
+form.addEventListener("Save and Apply Preferences") 
+
 let saveAndApplyPreferences = function(applyAndStorePreferences) {
 
     let inputedValueForName = LocalStorage.setItem("name");
@@ -29,17 +37,21 @@ let saveAndApplyPreferences = function(applyAndStorePreferences) {
         else (saveAndApplyPreferences = function(applyAndStorePreference)                                                                                     
 });
 
-
 function greet(getItem("name")) {
     Let greet(getItem("name")) = LocalStorage.setItem("name")
 
+    console.log("hello" + getItem("name"))
 }
 
 
+ 
 function returnVisitNewSession(preferencesUponLoading) {
     if (returnVisitNewSession)
         let preferencesUponLoading = saveAndApplyPreferences  
 })
 
+function notifyUserof(applyAndStorePreferences) {
+    sayPreferencesStoreAndApplied();
+}
 
 
